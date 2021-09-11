@@ -4,9 +4,7 @@
 #include <QWidget>
 #include <QTimer>
 #include <QObject>
-
-
-
+#include <QLabel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
