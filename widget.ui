@@ -66,7 +66,7 @@
     <number>3</number>
    </property>
   </widget>
-  <widget class="QPushButton" name="startButton">
+  <widget class="QPushButton" name="ButtonTurnLeft">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -81,8 +81,11 @@
    <property name="text">
     <string>left</string>
    </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
   </widget>
-  <widget class="QPushButton" name="stopButton">
+  <widget class="QPushButton" name="ButtonTurnRight">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -96,6 +99,9 @@
    </property>
    <property name="text">
     <string>right</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QLabel" name="valueLabel">
@@ -156,7 +162,7 @@ color: rgb(255, 255, 255);</string>
     <number>-2</number>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="labelTurnLeft">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -173,7 +179,7 @@ font: 75 48pt &quot;MS Shell Dlg 2&quot;;</string>
     <string>&lt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="labelTurnRight">
    <property name="geometry">
     <rect>
      <x>350</x>
@@ -192,7 +198,7 @@ font: 75 48pt &quot;MS Shell Dlg 2&quot;;
     <string>&gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="ButtonAlarm">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -206,6 +212,9 @@ font: 75 48pt &quot;MS Shell Dlg 2&quot;;
    </property>
    <property name="text">
     <string>alarm</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

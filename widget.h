@@ -3,9 +3,9 @@
 
 #include <QWidget>
 #include <QTimer>
-#include <QPainter>
-#include <QTime>
-#include <QtMath>
+#include <QObject>
+
+
 
 
 QT_BEGIN_NAMESPACE
@@ -26,7 +26,13 @@ private:
     int m_speedometerValue;
     QPixmap *m_pixmapArrow;
 
-public slots:
+private slots:
     void on_speedometerSlider_valueChanged(int value);
+    void on_ButtonTurnLeft_toggled(bool checked);
+    void on_ButtonAlarm_toggled(bool checked);
+    void on_ButtonTurnRight_toggled(bool checked);
+    void on_TurnLeftTimer();
+    void on_TurnRightTimer();
+    void on_AlarmTimer();
 };
 #endif // WIDGET_H
